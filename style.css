@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #e0f7fa, #fff3e0);
+  color: #333;
+}
+
+header {
+  background: #ff7043;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.hero {
+  background: #26c6da;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero button {
+  background: #004d40;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.modules, .gamified, .contacts, .dashboard {
+  padding: 2rem;
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #fff;
+  border: 2px solid #ffccbc;
+  border-radius: 12px;
+  padding: 1rem;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  color: #d84315;
+}
+
+.gamified button, .dashboard button {
+  background: #ff9800;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#badge {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: #4caf50;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  background: #ff7043;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
